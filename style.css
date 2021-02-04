@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+  }
+  
+  .speaker {
+    position: relative;
+    width: 200px;
+    height: 275px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background: #1b1b1b;
+    margin: 80px;
+  }
+  
+  .speaker-inner {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .big-woofer-outer {
+    border: 3px solid rgb(0, 153, 0);
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    box-shadow: inset -2px -2px 5px 15px #343434, inset -2px 2px 5px 3px black,
+      inset 2px -2px 5px 20px black, 2px 2px 5px 4px #343434, -2px -2px 3px white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .big-woofer-inner {
+    width: 90px;
+    height: 90px;
+    box-shadow: inset -2px -2px 5px 10px black, inset 2px 2px 5px 10px black,
+      2px 2px 5px #343434, -2px -2px 10px black;
+    border-radius: 50%;
+  }
+  
+  .small-woofer-outer {
+    border: 3px solid rgb(0, 153, 0);
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    margin-bottom: 10%;
+    box-shadow: inset -2px -2px 5px 5px #343434, inset 2px 2px 5px 5px #343434,
+      2px 2px 5px 3px #343434, -2px -2px 2px white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .small-woofer-inner {
+    width: 50px;
+    height: 50px;
+    box-shadow: inset -2px -2px 3px 5px black, inset 2px 2px 5px 5px black,
+      2px 2px 5px #343434, -2px -2px 5px black;
+    border-radius: 50%;
+  }
+  
+  .volume-knob {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 3px solid rgb(0, 255, 0);
+    right: 15px;
+    top: 90px;
+    box-shadow: inset -2px -2px 5px gray, inset 2px 2px 5px black;
+    transition: 1s ease-out;
+  }
+  
